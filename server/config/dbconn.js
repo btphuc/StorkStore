@@ -16,7 +16,7 @@ module.exports = (sql , arrayData) => {
                     return conn.close()
                 }
                 resolve(result.rows)
-                return conn.close()                
+                // return conn.close()                
             })
         })
     })
